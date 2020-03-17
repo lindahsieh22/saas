@@ -4,29 +4,31 @@
 
 @media (max-width: 1000px) {
 
-    /* img {
-        width: 100%;
-        height: auto;
-    } */
-
     .navbar-toggler .navbar-toggler-icon{
         display: inline-block;
     }
+    /* 設定了沒有用 */
 
     #navbar {
         display: none;
     }
+    /* 設定了沒有用 */
 
     .nav_right_btn {
         display: none;
     }
+    /* 設定了好像有用 */
 
 }
 
 @media (max-width: 768) {
-    [class*="col-"] {
-        width: 100%;
-    }
+
+        .target_image {
+            float: none;
+            display: block;
+            margin: 0 auto;
+        } 
+        /* 設定了沒有用 */
 }
 
 html,body
@@ -252,10 +254,6 @@ img {
     background-color: #50a8f0
   }
 
-  .header_image {
-    position: relative;
-  }
-
   .woman {
     display: block;
     float: right;
@@ -322,24 +320,12 @@ img {
       padding: 50px 0;
   }
 
-  #target row {
-      position: relative;
-  }
-
   .target_image {
-      /* position: absolute;
-      left: 50%;
-      max-width: 100%;
-      height: auto; */
       float: right;
       display: block;
       margin: 0 auto;
   }
 
-
-
-
- 
   /* service_area */
 
   .service_area {
