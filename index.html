@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<d/div lang="en">
 <head>
 	<meta charset="UTF-8">
     <title>Bootstrap</title>
@@ -14,72 +14,73 @@
 	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
+<style>
+    /* For mobile phones: */
+/* [class*="col-sm-"] {
+  width: 100%;
+} */
+</style>
+
 <body>
     <div id="header" class="clearfix">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <div id="logo" class="pull-left"><a href="#">
                         <img src="http://droitthemes.com/html/saasland/img/logo2.png" alt="logo">
                     </a></div>
                 </div>
-            <div class="col-sm-6">
-                <div id="navbar">
-                    <div class="container">
-                        <ul class="nav nav-pills">
-                            <li class="nav-item">
-                            <a class="nav-link active" href="#">home</a>
-                            </li>
-                            <li class="nav-item">
+                <div class="col-md-6">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="#">home<span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
                             <a class="nav-link" href="#">pages</a>
-                            </li>
-                            <li class="nav-item">
+                          </li>
+                          <li class="nav-item">
                             <a class="nav-link" href="#">portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">shop</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">elements</a>
-                            </li>
-                            <!-- <li class="nav-item pull-right hbutton">
-                                <a class="nav-link active" href="#">login</a>
-                            </li>
-                            <li class="nav-item pull-right hbutton">
-                                <a class="nav-link" href="#">sign up</a>
-                            </li> -->
-                            
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">shop</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">blog</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">elements</a>
+                          </li>
                         </ul>
-
-                    </div>
+                        
+                      </div>
                 </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="nav_right_btn pull-right">
-                    <a href="#" class="login_btn">login</a>
-                    <a href="#" class="login_btn active">sign up</a>
+                <div class="col-md-3">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item nav_right_btn">
+                          <a class="nav-link" href="#">login</a>
+                        </li>
+                        <li class="nav-item nav_right_btn active">
+                          <a class="nav-link" href="#">sign up</a>
+                        </li>
+                      </ul>
                 </div>
-                <a href="#" id="menu-trigger">
-                    <img src="images/menu-512.png" alt="menu">
-                </a>
-            </div>
-
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <img src="images/menu-512.png" alt="menu">
+                    </span>
+                  </button>
             </div>
         </div>
-        
+          
 
-        
-        
-        
+          </nav>
         </div>
 
         <div class="header clearfix">
             <div class="container pad slider">
                 <div class="row">
-                    <div class="col-sm-7 title">
+                    <div class="col-md-7 title">
                         <h1>Best way to chat to your 
                             <br>
                             customers using slack.</h1>
@@ -92,8 +93,8 @@
 
                     </div>
         
-                    <div class="col-sm-5 header_image">
-                        <div class="container">
+                    <div class="col-md-5 header_image">
+                        <div class="container clearfix">
                             <img class="woman" src="http://droitthemes.com/html/saasland/img/home2/women.png" alt="woman" >
                             <img class="phone" src="http://droitthemes.com/html/saasland/img/home2/mobile.png" alt="phone">
                         </div>
@@ -105,14 +106,14 @@
         <div id="feature sec_pad">
             <div class="container pad">
                 <div class="row">
-                    <div class="col-sm-7">
+                    <div class="col-md-7">
                         <div class="feature_img">
                         <img class="blue" src="http://droitthemes.com/html/saasland/img/home2/featureimg1.png" alt="blue">
                         <img class="ladder" src="http://droitthemes.com/html/saasland/img/home2/featureimg1-1.png" alt="ladder">
                         <img class="convo" src="http://droitthemes.com/html/saasland/img/home2/featureimg1-2.png" alt="convo">
                         </div>
                     </div>
-                    <div class="col-sm-5 third_pad">
+                    <div class="col-md-5 third_pad">
                         <div class="icon">
                             <img src="http://droitthemes.com/html/saasland/img/home2/f_icon_shape1.png" alt="icon">
                         </div>
@@ -128,7 +129,7 @@
         <div id="target">
             <div class="container pad">
                 <div class="row">
-                    <div class="col-sm-5">
+                    <div class="col-md-5">
                         <div class="icon">
                             <img src="http://droitthemes.com/html/saasland/img/home2/f_icon_shape1.png" alt="icon">
                         </div>
@@ -137,7 +138,7 @@
                             <p>Why I say old chap that is spiffing me old mucker, lurgy brown bread grub the BBC the full monty chancer ruddy dropped a clanger, only quid blag mush cracking goal mufty blow off cor blimey guvnor.</p>
                         </div>
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-md-7">
                         <img class="target_image" src="http://droitthemes.com/html/saasland/img/home2/02.png" alt="lady">
                     </div>
                 </div>
@@ -156,7 +157,7 @@
             </div>
             <div class="container info_area">
                 <div class="row">
-                    <div class="col-sm-3 info">
+                    <div class="col-md-3 info">
                         <div class="info_item">
                             <a href="#">
                                 <h2>Mail Metrics 
@@ -167,7 +168,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-3 mb-30 info">
+                    <div class="col-md-3 mb-30 info">
                         <div class="info_item">
                             <a href="#">
                                 <h2>Mail Metrics 
@@ -178,7 +179,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-3 mb-30 info">
+                    <div class="col-md-3 mb-30 info">
                         <div class="info_item">
                             <a href="#">
                                 <h2>Mail Metrics 
@@ -189,7 +190,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-3 mb-30 info">
+                    <div class="col-md-3 mb-30 info">
                         <div class="info_item">
                             <a href="#">
                                 <h2>Mail Metrics 
@@ -221,7 +222,7 @@
     </div>
     <div class="container">
         <div class="row price_info">
-<div class="col-sm-4">
+<div class="col-md-4">
     <div class="price_info_box">
         <img src="http://droitthemes.com/html/saasland/img/home2/price-2.png" alt="photo">
         <div class="disc">
@@ -240,7 +241,7 @@
         <button type="button" class="btn btn-outline-primary">start today</button>
     </div>
 </div>
-<div class="col-sm-4">
+<div class="col-md-4">
     <div class="price_info_box">
         <img src="http://droitthemes.com/html/saasland/img/home2/price-2.png" alt="photo">
         <div class="disc">
@@ -259,7 +260,7 @@
         <button type="button" class="btn btn-outline-primary">start today</button>
     </div>
 </div>
-<div class="col-sm-4">
+<div class="col-md-4">
     <div class="price_info_box">
         <img src="http://droitthemes.com/html/saasland/img/home2/price-2.png" alt="photo">
         <div class="disc">
@@ -300,14 +301,14 @@
         <div class="footer_top pad">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-md-3">
                         <img class="footer_logo" src="http://droitthemes.com/html/saasland/img/logo.png" alt="logo">
                         <p>Why I say old chap that is spiffing lavatory chip 
                             <br>
                             shop gosh off his nut.!</p>
                         <img class="footer_image" src="http://droitthemes.com/html/saasland/img/home2/overview.png" alt="overview">
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-md-2">
                         <div class="footer_links">
                             <h4>company</h4>
                             <ul>
@@ -320,7 +321,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-md-3">
                         <div class="footer_links">
                             <h4>workflow solution</h4>
                             <ul>
@@ -333,7 +334,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm-4 social_media">
+                    <div class="col-md-4 social_media">
                             <h4>Follow Us</h4>
                             <div class="links clearfix">
                                 <ul>
